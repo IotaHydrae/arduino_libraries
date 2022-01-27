@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "d:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\examples\\Blink\\output\\sketch\\Blink.ino.cpp",
+    "Include": "SSD1306.h",
+    "Includepath": "D:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\src"
+  },
+  {
+    "Sourcefile": "d:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\examples\\Blink\\output\\sketch\\Blink.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\src\\SSD1306.cpp",
+    "Include": "Wire.h",
+    "Includepath": "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "D:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\src\\SSD1306.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": null
+  }
+]
