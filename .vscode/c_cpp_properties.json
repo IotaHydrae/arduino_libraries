@@ -17,6 +17,7 @@
             "includePath": [
                 "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
                 "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\variants\\standard",
+                "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src",
                 "D:\\Softerware_Location\\Arduino\\libraries\\NixieClockLite\\src",
                 "D:\\Softerware_Location\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src",
                 "d:\\softerware_location\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
