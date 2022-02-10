@@ -9,9 +9,9 @@
 #endif
 
 /* oled param */
-#define OLED_HOR_RES_MAX 128
-#define OLED_VER_RES_MAX 64
-#define OLED_COLOR_DEPTH 1
+#define OLED_HOR_RES_MAX (128)
+#define OLED_VER_RES_MAX (64)
+#define OLED_COLOR_DEPTH (1)
 
 /* useful defines like buffer operation */
 #define OFFSET(p, c) ((p)*128 + (c)-1)
@@ -26,11 +26,13 @@
 #define PAGE_COL_GET_Y(pc) (GET_PAGE(pc) * 8)
 
 /* ssd1306 device address */
-#define SSD1306_DEVICE_ADDR 0x78
+#define SSD1306_DEVICE_ADDR 0x3C
+#define SSD1306_DEVICE_WRITE ((SSD1306_DEVICE_ADDR << 1))
+#define SSD1306_DEVICE_READ ((SSD1306_DEVICE_ADDR << 1) | 0x01)
 
 /* the transmited value type */
 #define SSD1306_COMMAND 0x00
-#define SSD1306_DATA 0x40
+#define SSD1306_DATA    0x40
 
 /* the ssd1306 command table */
 

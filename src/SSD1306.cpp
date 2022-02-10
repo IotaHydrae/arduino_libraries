@@ -59,8 +59,8 @@ void SSD1306::init( oled_handle_t *handle )
 {
     /* setup twi interface */
     Wire.begin();
-    Wire.beginTransmission(0x3C);
-
+    Wire.beginTransmission( SSD1306_DEVICE_WRITE );
+    
     return;
     
     /* check if controller still uninitialized */
@@ -86,8 +86,10 @@ init_failed:
 void SSD1306::test()
 {
     Wire.begin();
-    Wire.beginTransmission(0x3C);
-
+    Wire.beginTransmission( SSD1306_DEVICE_WRITE );
+    Wire.write( SSD1306_COMMAND );
+    Wire.write( 0x01 );
+    Wire.endTransmission();
 }
 /*
     i2c_start();
